@@ -1,0 +1,16 @@
+
+Pedals
+
+using Arduino Uno R3 as throttle and brake pedals for racing games etc
+
+Requirements:
+vJoy
+python (i think it needs to be 32-bit to work with pyvjoy, I'm using 2.7)
+pyvjoy (pip install pyvjoy)
+
+I also recommend a program like Pointy's Joystick Test to make sure it works
+
+**YOU NEED TO COPY vJoyInterface.dll from the x86 folder of the vjoy installation directory INTO the pyvjoy package directory, probably Lib\site-packages\pyvjoy\utils\x86 )
+
+
+
