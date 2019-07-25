@@ -2,10 +2,12 @@
 Pedals
 
 using Arduino Uno R3 as throttle and brake pedals for racing games etc
+arduino writes value of analog pin to serial and a python program reads it continuously, sending it to vJoy's simulated joystick controller
 
 Requirements:
 vJoy
 python (i think it needs to be 32-bit to work with pyvjoy, I'm using 2.7)
+pyserial
 pyvjoy (pip install pyvjoy)
 
 I also recommend a program like Pointy's Joystick Test to make sure it works
